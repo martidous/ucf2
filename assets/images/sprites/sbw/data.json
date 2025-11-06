@@ -1,0 +1,77 @@
+{
+  "sprites": {
+    "Idle": {
+      "path": "/assets/images/sprites/sbw/Idle/",
+      "count": 19,
+      "prefix": "Idle_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    },
+    "Run": {
+      "path": "/assets/images/sprites/sbw/Run/",
+      "count": 13,
+      "prefix": "Run_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    },
+    "Jump": {
+      "path": "/assets/images/sprites/sbw/Jump/",
+      "count": 17,
+      "prefix": "Jump_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    },
+    "Kick": {
+      "path": "/assets/images/sprites/sbw/Kick/",
+      "count": 14,
+      "prefix": "Kick_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    }
+    , "Hit": {
+      "path": "/assets/images/sprites/sbw/Hit/",
+      "count": 12,
+      "prefix": "Hit_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    },
+    "Die": {
+      "path": "/assets/images/sprites/sbw/Die/",
+      "count": 13,
+      "prefix": "Die_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    },
+    "Roll": {
+      "path": "/assets/images/sprites/sbw/Roll/",
+      "count": 12,
+      "prefix": "Roll_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    } ,
+    "Hurt": {
+      "path": "/assets/images/sprites/sbw/Hurt/",
+      "count": 5,
+      "prefix": "Hurt_",
+      "extension": "png",
+      "scale": 1.0,
+      "digits": 2
+    }
+
+  },
+  "sounds": {
+    "jump": "assets/sounds/jump.mp3",
+    "hit": "assets/sounds/hit.mp3"
+  },
+  "config": {
+    "defaultState": "Idle",
+    "frameDelay": 5
+  }
+}
